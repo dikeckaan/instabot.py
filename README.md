@@ -150,6 +150,20 @@ follow_per_day: 1000
 
 [Create Telegram bot for instabot](https://core.telegram.org/bots#3-how-do-i-create-a-bot)
 
+**Install depencies (Telegram bot)**
+
+- `sudo pip3 install python-telegram-handler`
+
+**How to get chat id and token?**
+
+````yaml
+Login telegram and search botfather
+Create new bot
+get token and copy 
+send test message new bot
+go https://api.telegram.org/botpasteheretoken/getUpdates
+you should see chat":{"id":"chatidnumber"
+````
 ## Community
 
 - [Telegram Group](https://t.me/joinchat/DYKH-0G_8hsDDoN_iE8ZlA)
